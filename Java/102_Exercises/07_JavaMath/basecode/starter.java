@@ -10,10 +10,10 @@ class starter {
         // ===================================================
  
         // TODO: Construct and declare an int variable named applesPicked and set it to 12
-        
+        int applesPicked = 12 ;
  
         // TODO: Construct and declare a double variable named boxWeightLbs and set it to 2.5
-        
+        double boxWeightLbs = 2.5
  
         System.out.println("Apples picked: " + applesPicked);
         System.out.println("Box weight: " + boxWeightLbs);
