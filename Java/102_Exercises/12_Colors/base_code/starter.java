@@ -9,11 +9,13 @@ import java.util.Scanner;
 class starter {
 	public static void main(String args[]) {
 	
-    int red = (int)	Math.random()* 256;
-	int green = (int)Math.random()* 256;
-    int blue = (int)Math.random()*256;
+    int red = (int)	(Math.random()* 256);
+	int green = (int)((Math.random()* 256));
+    int blue = (int)(Math.random()*256);
 	getColor(red, green, blue);
     getColor(255-red, 255-green, 255-blue);
+
+    getcolor (255-blue -red -green) ;
     	// Call getColor(#, #, #);
 	}
 
