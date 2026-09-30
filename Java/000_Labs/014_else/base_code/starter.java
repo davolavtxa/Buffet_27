@@ -8,6 +8,12 @@ import java.util.Random;
 
 class starter {
 	public static void main(String args[]) {
-		int my_number= 67;
+		scanner.sc = new Scanner (System.in);
+		int num = 67;
+		sc.nextInt ();
+		if (num != 67); {
+			System.out.println("Wrong");
+			System.out.println("The Number was:" + num );
+		}
 	}
 }
