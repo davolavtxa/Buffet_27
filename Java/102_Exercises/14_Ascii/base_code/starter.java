@@ -20,7 +20,7 @@ class starter {
 			System.out.println("2.Mushroom");
 			System.out.println("3.Tower");
 			String piece = sc.nextLine();
-			if (piece.equals("Black Hole")) {
+			if (piece.equals("Black hole")) {
 
 				System.out.println("                             ____");
 				System.out.println("                     __,-~~/~    `---.");
@@ -84,6 +84,16 @@ class starter {
 			}
 
 		}
+		if (exhibit.equals("Bombs")) {
+			System.out.println("1.Black hole");
+			System.out.println("2.Mushroom");
+			System.out.println("3.Tower");
+			String piece = sc.nextLine();
+			if (piece.equals("Black hole")) {
+			} else if (piece.equals("Mushroom")) {
+			} else if (piece.equals("Tower")) {
+			}
+
 
 		sc.close();
 	}
