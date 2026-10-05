@@ -85,5 +85,6 @@ class starter {
 
 		}
 
+		sc.close();
 	}
 }
