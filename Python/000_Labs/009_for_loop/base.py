@@ -3,7 +3,6 @@ y = str (input ("Do you want a horizontal or vertical line? "))
 if y == "vertical":
     for y in range(x):
         print("*")
-        print("\n")
 elif y == "horizontal":
     for x in range(x):
         print("*", end="")
